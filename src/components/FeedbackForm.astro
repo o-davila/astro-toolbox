@@ -22,29 +22,30 @@
     <label for="email">Email</label>
     <input id="email" type="email" name="email" required />
     <label for="telefono">Telefono</label>
-    <input id="telefono" type="text" name="telefono" />
+    <input id="telefono" type="tel" name="telefono" />
     <label for="zipcode">Codigo Postal</label>
     <input id="zipcode" type="number" name="zipcode" required />
     <label for="birthdate">Fecha de nacimiento</label>
     <input id="birthdate" type="date" name="birthdate" required />
     <fieldset>
       <legend>Selecione sus areas de interes</legend>
-      <input id="demencia" type="checkbox" name="intereses" value="demencia" />
       <label for="demencia">Demencia</label>
+      <input id="demencia" type="checkbox" name="intereses" value="demencia" />
+
+      <label for="mental-health">Salud Mental</label>
       <input
         id="mental-health"
         type="checkbox"
         name="intereses"
         value="salud-mental"
       />
-      <label for="mental-health">Salud Mental</label>
+      <label for="studies">Estudios Clinicos</label>
       <input
         id="studies"
         type="checkbox"
         name="intereses"
         value="estudios-clinicos"
       />
-      <label for="studies">Estudios Clinicos</label>
     </fieldset>
     <!--  <label for="feedback">What is your feedback?</label>
     <textarea id="feedback" wrap="soft" name="feedback" required></textarea> -->
