@@ -8,7 +8,7 @@
   node_bundler = "esbuild"
 
 [[plugins]] 
-package = "@vgs/netlify-plugin-vgs"
+#package = "@vgs/netlify-plugin-vgs"
  # package = "netlify-plugin-cypress"
 
  # [plugins.inputs.postBuild]
