@@ -4,7 +4,7 @@
 <h1>This is a regular FORM</h1>
 <div class="feedback-form">
   <form
-    netlify
+    data-netlify="true"
     netlify-honeypot="bot-field"
     name="feedback"
     method="POST"
@@ -17,7 +17,8 @@
       </label>
     </p>
     <input type="hidden" name="form-name" value="feedback" />
-    <label for="email">Email</label>
+
+    <!-- <label for="email">Email</label>
     <input id="email" type="email" name="email" required />
     <label for="telefono">Telefono</label>
     <input id="telefono" type="tel" name="telefono" />
@@ -54,10 +55,7 @@
         <label for="studies">Estudios Clinicos</label>
       </div>
     </fieldset>
-
-    <!--  <label for="feedback">What is your feedback?</label>
-    <textarea id="feedback" wrap="soft" name="feedback" required></textarea> -->
-
+ -->
     <label for="file-upload"></label>
     <input
       id="file-upload"
