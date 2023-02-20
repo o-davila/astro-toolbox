@@ -1,15 +1,17 @@
 ---
 import Layout from '../components/Layout.astro';
 import FeedbackForm from '../components/FeedbackForm.astro';
+import SignupForm from '../components/SignupForm.astro';
 export const prerender = true;
 ---
 
 <Layout title="Astro Toolbox">
   <main>
     <FeedbackForm />
-    <a class="jokes-link" href="/api/joke">
+    <SignupForm />
+    <!--  <a class="jokes-link" href="/api/joke">
       <h3>Click here for function-loaded jokes!</h3>
-    </a>
+    </a> -->
     <footer class="footer">
       Made with <a href="https://ntl.fyi/3P0dwBi"
         ><img
